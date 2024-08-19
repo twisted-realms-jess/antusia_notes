@@ -1,11 +1,6 @@
 # This file contains the campaign notes
 
-"Adrik": 
-  "Race": "Mountain Dwarf"
-  "Class": "Forge Domain Cleric"
-  "Background": "Metal Worker"
-  "Hometown": "Ekrund"
-  "Family":
-    "Wife": "Vistra"
-    "Son": "Rurik"
+Adrik: 
+  - Adrik is a mountain dwarf from Ekrund
+  - He had to leave town when he was framed for stealing moonstone
   
