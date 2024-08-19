@@ -8,9 +8,9 @@ import pandas
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app")
-st.write("Use the search bar to find what you're looking for"
+st.write("Use the search bar to find what you're looking for")
 
 search_item = st.text_input('Search: ')
 
-
-    
+if search_item:
+    st.subheader(search_item + ":")
