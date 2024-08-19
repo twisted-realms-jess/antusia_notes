@@ -1,9 +1,16 @@
-[{Adrik: 
-  "- Adrik is a mountain dwarf from Ekrund",
-  "- He had to leave town when he was framed for stealing moonstone"
+[
+  {
+    "name": "Adrik",
+    "notes": {
+      "- Adrik is a mountain dwarf from Ekrund",
+      "- He had to leave town when he was framed for stealing moonstone"
+    }
   },
-{Vistra: 
-  "- Vistra is a mountain dwarf from Ekrund",
-  "- She is the wife of Adrik and the mother of Rurik"
+  {
+    "name": "Vistra",
+    "notes": {
+      "- Vistra is a mountain dwarf from Ekrund",
+      "- She is the wife of Adrik and the mother of Rurik"
+    }
   }
 ]
