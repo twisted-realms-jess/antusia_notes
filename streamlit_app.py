@@ -7,6 +7,7 @@ import streamlit as st
 import pandas as pd
 from ruamel.yaml import YAML
 import requests
+import json
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app!")
@@ -19,6 +20,7 @@ st.write(
 url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.json'
 response = requests.get(url)
 st.write(response.text)
+json.load(request)
 #response_df = st.dataframe(data=response.json(), use_container_width=True)
 
 search_item = st.text_input("Search: ")
