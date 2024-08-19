@@ -16,7 +16,7 @@ st.write(
 )
 
 # Load notes data 
-url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yml'
+url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.json'
 response = requests.get(url)
 #response_df = st.dataframe(data=response.json(), use_container_width=True)
 st.write(response)
