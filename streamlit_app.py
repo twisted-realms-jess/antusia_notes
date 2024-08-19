@@ -3,7 +3,7 @@
 # Created on: 19/08/2024
 
 # Import python packages
-import streamlit
+import streamlit as st
 import pandas
 
 # Set up the app header
