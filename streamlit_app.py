@@ -15,16 +15,15 @@ st.write(
     """
 )
 
-# Load notes data function
-def load_notes_data():
-    url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yaml'
-    response = requests.get(url)
-    if response.status_code == 200:
-        input_file = response.text
-        return print(input_file)
-    else:
-        st.error("Failed to load data from GitHub.")
-        return None
+# Load notes data 
+url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yaml'
+response = requests.get(url)
+if response.status_code == 200:
+    input_file = response.text
+    return print(input_file)
+else:
+    st.error("Failed to load data from GitHub.")
+    return None
 
 yaml = YAML()
 
