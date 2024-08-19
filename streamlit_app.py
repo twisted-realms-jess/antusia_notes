@@ -7,7 +7,6 @@ import streamlit as st
 import pandas as pd
 from ruamel.yaml import YAML
 import requests
-from io import StringIO
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app!")
@@ -21,7 +20,7 @@ def load_notes_data():
     url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yaml'
     response = requests.get(url)
     if response.status_code == 200:
-        input_file = StringIO(response.text)
+        input_file = response.text
         return print(input_file)
     else:
         st.error("Failed to load data from GitHub.")
