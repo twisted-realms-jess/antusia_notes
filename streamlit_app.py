@@ -30,7 +30,7 @@ yaml = YAML()
 # for key, value in yaml.load(open(input_file)).items():
 #     print(str(key))
 
-print(input_file)
+#print(input_file)
 
 search_item = st.text_input("Search: ")
 
