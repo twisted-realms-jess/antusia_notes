@@ -18,8 +18,8 @@ st.write(
 # Load notes data 
 try:
     url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yml'
-    response = requests.get(url).json()
-    response_df = st.dataframe(data=response.json(), use_container_width=True)
+    # response = requests.get(url).json()
+    # response_df = st.dataframe(data=response.json(), use_container_width=True)
 except:
     st.write("oops")
 
