@@ -16,7 +16,7 @@ st.write(
 )
 
 # Load notes data 
-url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yaml'
+url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yml'
 response = requests.get(url)
 if response.status_code == 200:
     input_file = response.text
