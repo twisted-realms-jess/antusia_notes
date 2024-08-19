@@ -20,7 +20,7 @@ try:
     url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yml'
     response = requests.get(url).json()
     response_df = st.dataframe(data=response.json(), use_container_width=True)
-except"
+except:
     st.write("oops")
 
 search_item = st.text_input("Search: ")
