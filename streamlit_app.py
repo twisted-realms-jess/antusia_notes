@@ -23,11 +23,6 @@ if response.status_code == 200:
 else:
     st.error("Failed to load data from GitHub.")
 
-# for key, value in yaml.load(open(input_file)).items():
-#     print(str(key))
-
-# st.write(input_file)
-
 search_item = st.text_input("Search: ")
 
 if search_item:
