@@ -5,7 +5,7 @@
 # Import python packages
 import streamlit as st
 import pandas as pd
-from ruamel.yaml import yaml
+from ruamel.yaml import YAML
 import requests
 
 # Set up the app header
