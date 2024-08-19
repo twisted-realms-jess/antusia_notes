@@ -20,7 +20,7 @@ st.write(
 url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.json'
 response = requests.get(url)
 st.write(response.text)
-response_df = st.dataframe(data=response, use_container_width=True)
+response_df = st.dataframe(data=response.text, use_container_width=True)
 
 search_item = st.text_input("Search: ")
 
