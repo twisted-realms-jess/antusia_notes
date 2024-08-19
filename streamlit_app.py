@@ -5,7 +5,7 @@
 # Import python packages
 import streamlit as st
 import pandas as pd
-from ruamel.yaml import YAML
+from ruamel.yaml import yaml
 import requests
 
 # Set up the app header
@@ -22,15 +22,6 @@ if response.status_code == 200:
     input_file = response.text
 else:
     st.error("Failed to load data from GitHub.")
-
-# with open("https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.yml", 'r') as x:
-#     try:
-#         parsed_yaml=yaml.safe_load(x)
-#         st.write(parsed_yaml)
-#     except yaml.YAMLError as exc:
-#         print(exc)
-
-# yaml = YAML()
 
 # for key, value in yaml.load(open(input_file)).items():
 #     print(str(key))
