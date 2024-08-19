@@ -20,10 +20,8 @@ url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/
 response = requests.get(url)
 if response.status_code == 200:
     input_file = response.text
-    return input_file
 else:
     st.error("Failed to load data from GitHub.")
-    return None
 
 yaml = YAML()
 
