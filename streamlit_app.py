@@ -22,7 +22,7 @@ if response.status_code == 200:
     df = pd.read_csv(StringIO(response.text))
     print(df)
 else:
-    st.error(“Failed to load data from GitHub.”)
+    st.error('Failed to load data from GitHub.')
 
 # st.write(response.text)
 # response_df = st.dataframe(data=response.text, use_container_width=True)
