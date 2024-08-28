@@ -9,7 +9,7 @@ import requests
 from io import StringIO
 
 # Clear cache
-st..cache_data.clear()
+st.cache_data.clear()
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app!")
