@@ -5,9 +5,7 @@
 # Import python packages
 import streamlit as st
 import pandas as pd
-from ruamel.yaml import YAML
 import requests
-import json
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app!")
@@ -17,13 +15,20 @@ st.write(
 )
 
 # Load notes data 
-url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.json'
+url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.csv'
 response = requests.get(url)
-st.write(response.text)
-response_df = st.dataframe(data=response.text, use_container_width=True)
 
-search_item = st.text_input("Search: ")
+if response.status_code == 200:
+    df = pd.read_csv(StringIO(response.text))
+    print(df)
+else:
+    st.error(“Failed to load data from GitHub.”)
 
-if search_item:
-    st.subheader(search_item + ":")
+# st.write(response.text)
+# response_df = st.dataframe(data=response.text, use_container_width=True)
+
+# search_item = st.text_input("Search: ")
+
+# if search_item:
+#     st.subheader(search_item + ":")
     
