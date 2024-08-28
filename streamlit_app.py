@@ -21,7 +21,7 @@ response = requests.get(url)
 
 if response.status_code == 200:
     df = pd.read_csv(StringIO(response.text))
-    print(df)
+    st.write(df)
 else:
     st.error('Failed to load data from GitHub.')
 
