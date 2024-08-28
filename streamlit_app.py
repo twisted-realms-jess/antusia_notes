@@ -29,7 +29,7 @@ def load_data():
     else:
         return st.error('Failed to load data from GitHub.')
 
-
+st.write(df)
 
 search_item = st.text_input("Search: ")
 
