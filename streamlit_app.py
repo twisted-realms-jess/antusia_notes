@@ -20,7 +20,7 @@ st.write(
 
 # Load notes data 
 @st.cache_data
-def load_data:
+def load_data():
     url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.csv'
     response = requests.get(url)
     return response
