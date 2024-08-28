@@ -29,6 +29,6 @@ search_item = st.text_input("Search: ")
 
 if search_item:
     st.subheader(search_item + ":")
-    filtered_df = df.loc[df['topic'] == search_item]
+    filtered_df = df.loc[df['Topic'] == search_item]
     st.write(filtered_df)
     
