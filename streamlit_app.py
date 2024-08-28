@@ -23,13 +23,13 @@ st.write(
 def load_data():
     url = 'https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/notes.csv'
     response = requests.get(url)
-    return response
+    if response.status_code == 200:
+        df = pd.read_csv(StringIO(response.text))
+        return df
+    else:
+        return st.error('Failed to load data from GitHub.')
 
-if response.status_code == 200:
-    df = pd.read_csv(StringIO(response.text))
-    st.write(df)
-else:
-    st.error('Failed to load data from GitHub.')
+
 
 search_item = st.text_input("Search: ")
 
