@@ -25,11 +25,10 @@ if response.status_code == 200:
 else:
     st.error('Failed to load data from GitHub.')
 
-# st.write(response.text)
-# response_df = st.dataframe(data=response.text, use_container_width=True)
+search_item = st.text_input("Search: ")
 
-# search_item = st.text_input("Search: ")
-
-# if search_item:
-#     st.subheader(search_item + ":")
+if search_item:
+    st.subheader(search_item + ":")
+    filtered_df = df.loc[df['topic'] == search_item]
+    st.write(filtered_df)
     
