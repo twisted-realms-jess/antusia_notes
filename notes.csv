@@ -6,6 +6,10 @@ Adrik,Family,Son,Rurik Fireforge
 Adrik,Basic,God,Brokkr
 Adrik,Basic,Class,Forge domain cleric
 Adrik,Basic,Race,Mountain dwarf
+Adrik,Fabraal,Position,Back of the left hand, attaches with a loop on the front of the hand
+Adrik,Fabraal,Description,Contains the symbol of Brokkr
+Adrik,Tattoo,Position,Back of the right shoulder
+Adrik,Tattoo,Description,Metalwork and weapons surrounding an empty shield
 Adrik,Backstory,1,
 Adrik,Backstory,2,In Tawlech because it's a good place to be a blacksmith for the army
 Vistra,Basic,Full name, Vistra Fireforge
@@ -16,13 +20,21 @@ Vistra,Basic,God,Brokkr
 Madori,Basic,Full name, Madori Morris
 Madori,Basic,Class,Ranger
 Madori,Basic,Race,Tiefling
+Madori,Hometown,Volheim
 Zala,Basic,Full name, Zala
 Zala,Basic,Class,Samurai Fighter
 Zala,Basic,Race,Half-orc
+Zala,Basic,God,Forsetti
+Zala,Basic,Hometown,Jidwick
 Enid,Basic,Full name,Enid
 Enid,Basic,Class,Wizard
 Enid,Basic,Race,Human
+Enid,Basic,Background,In the military
 Ekrund,Basic,History,Homeland of dwarves
 Ekrund,Basic,Industry,Smelting magical ore
 Ekrund,Basic,Geography,Town in the Teogan Empire
-
+Emilda,Basic,Full name,Emilda Vasua
+Emilda,Family,Sister,recently deposed Queen of Chelia
+Emilda,Basic,Race,Tiefling
+Nom,Basic,Race,Human
+Nom,Basic,Work,Representative of H&M Couriers
