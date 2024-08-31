@@ -41,6 +41,6 @@ if search_item:
         st.dataframe(filtered_df.set_index(filtered_df.columns[0]))
     if search_item in session_list:
         st.subheader(search_item + ":")
-        filtered_df = session_df.loc[session_df['Session'] == search_item]
-        st.dataframe(filtered_df['Notes'].set_index(filtered_df.columns[0]))
+        filtered_df = session_df['Notes'].loc[session_df['Session'] == search_item]
+        st.dataframe(filtered_df.set_index(filtered_df.columns[0]))
     
