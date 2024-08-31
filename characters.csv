@@ -30,6 +30,9 @@ Enid,Basic,Full name,Enid
 Enid,Basic,Class,Wizard
 Enid,Basic,Race,Human
 Enid,Basic,Background,In the military
+Enid,Basic,Hometown,Bruron
+Enid,Family,Father,Brett
+Enid,Family,Mother,Tarrin
 Ekrund,Basic,History,Homeland of dwarves
 Ekrund,Basic,Industry,Smelting magical ore
 Ekrund,Basic,Geography,Town in the Teogan Empire
@@ -38,3 +41,8 @@ Emilda,Family,Sister,recently deposed Queen of Chelia
 Emilda,Basic,Race,Tiefling
 Nom,Basic,Race,Human
 Nom,Basic,Work,Representative of H&M Couriers
+Betrand,Basic,Work,Unpaid intern of Enid's father
+Brett,Family,Daughter,Enid
+Brett,Family,Wife,Tarrin
+Brett,Basic,Work,Colonel in the military
+
