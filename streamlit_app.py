@@ -25,11 +25,11 @@ def load_data(url):
         return st.error('Failed to load data from GitHub.')
 
 character_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/characters.csv')
-st.write(character_df)
+# st.write(character_df)
 character_list = character_df['Search Term'].unique()
 
 session_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/sessions.csv')
-st.write(session_df)
+# st.write(session_df)
 session_list = session_df['Session'].unique()
 
 search_item = st.text_input("Search: ")
@@ -38,9 +38,9 @@ if search_item:
     if search_item in character_list:
         st.subheader(search_item + ":")
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
-        st.write(filtered_df)
+        st.dataframe(filtered_df.set_index(filtered_df.columns[0])
     if search_item in session_list:
         st.subheader(search_item + ":")
         filtered_df = session_df.loc[session_df['Session'] == search_item]
-        st.write(filtered_df)
+        st.write(filtered_df['Notes'])
     
