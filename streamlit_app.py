@@ -34,8 +34,7 @@ session_list = session_df['Session'].unique()
 
 # Load place data
 place_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/places.csv')
-places_list = place_df['Place'].unique()
-st.write(places_list)
+place_list = place_df['Place'].unique()
 
 # Search item input
 search_item = st.text_input("Search for a topic: ")
