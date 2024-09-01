@@ -1,11 +1,12 @@
 Search Term,Category,Subcategory,Note
 Adrik,Basic,Full name,Adrik Fireforge
-Adrik,Basic,Hometown,Ekrund
-Adrik,Family,Wife,Vistra Fireforge
-Adrik,Family,Son,Rurik Fireforge
-Adrik,Basic,God,Brokkr
+Adrik,Basic,Pronouns,He/They
 Adrik,Basic,Class,Forge domain cleric
 Adrik,Basic,Race,Mountain dwarf
+Adrik,Basic,Hometown,Ekrund
+Adrik,Basic,God,Brokkr
+Adrik,Family,Wife,Vistra Fireforge
+Adrik,Family,Son,Rurik Fireforge
 Adrik,Fabraal,Position,Back of the left hand that attaches with a loop on the front of the hand
 Adrik,Fabraal,Description,Contains the symbol of Brokkr
 Adrik,Tattoo,Position,Back of the right shoulder
@@ -13,36 +14,61 @@ Adrik,Tattoo,Description,Metalwork and weapons surrounding an empty shield
 Adrik,Backstory,"1",Born and raised in Ekrund
 Adrik,Backstory,"2",In Tawlech because it's a good place to be a blacksmith for the army
 Vistra,Basic,Full name, Vistra Fireforge
+Vistra,Basic,Pronouns,She/Her
+Vistra,Basic,Race,Mountain dwarf
 Vistra,Basic,Hometown,Ekrund
+Vistra,Basic,God,Brokkr
 Vistra,Family,Husband,Adrik Fireforge
 Vistra,Family,Son,Rurik Fireforge
-Vistra,Basic,God,Brokkr
 Madori,Basic,Full name, Madori Morris
+Madori,Basic,Pronouns,She/Her
 Madori,Basic,Class,Ranger
 Madori,Basic,Race,Tiefling
 Madori,Basic,Hometown,Volheim
 Zala,Basic,Full name, Zala
+Zala,Basic,Pronouns,She/Her
 Zala,Basic,Class,Samurai Fighter
 Zala,Basic,Race,Half-orc
-Zala,Basic,God,Forsetti
 Zala,Basic,Hometown,Jidwick
+Zala,Basic,God,Forsetti
 Enid,Basic,Full name,Enid
+Enid,Basic,Pronouns,She/Her
 Enid,Basic,Class,Wizard
 Enid,Basic,Race,Human
-Enid,Basic,Background,In the military
 Enid,Basic,Hometown,Bruron
+Enid,Basic,Background,In the military
 Enid,Family,Father,Brett
 Enid,Family,Mother,Tarrin
-Ekrund,Basic,History,Homeland of dwarves
-Ekrund,Basic,Industry,Smelting magical ore
-Ekrund,Basic,Geography,Town in the Teogan Empire
 Emilda,Basic,Full name,Emilda Vasua
+Emilda,Basic,Pronouns,She/Her
 Emilda,Family,Sister,recently deposed Queen of Chelia
 Emilda,Basic,Race,Tiefling
+Nom,Basic,Full name,Nom
 Nom,Basic,Race,Human
+Nom,Basic,Pronouns,He/Him
 Nom,Basic,Work,Representative of H&M Couriers
-Betrand,Basic,Work,Unpaid intern of Enid's father
-Brett,Family,Daughter,Enid
-Brett,Family,Wife,Tarrin
+Bertrand,Basic,Full name,Bertrand
+Bertrand,Basic,Pronouns,He/Him
+Bertrand,Basic,Hometown,Bruron
+Bertrand,Basic,Work,Unpaid intern of Enid's father
+Brett,Basic,Full name,Brett
+Brett,Basic,Pronouns,He/Him
+Brett,Basic,Hometown,Bruron
 Brett,Basic,Work,Colonel in the military
-
+Brett,Family,Wife,Tarrin
+Brett,Family,Daughter,Enid
+Tarrin,Basic,Full name,Tarrin
+Tarrin,Basic,Pronouns,She/Her
+Tarrin,Basic,Hometown,Bruron
+Tarrin,Family,Husband,Brett
+Tarrin,Family,Daughter,Enid
+Carmen,Basic,Full name,Professor Carmen
+Carmen,Basic,Pronouns,She/Her
+Carmen,Basic,Hometown,Bruron
+Carmen,Basic,Work,Professor at the university in Bruron
+Silence,Basic,Full name,Archmage Silence
+Silence,Basic,Hometown,Bruron
+Silence,Basic,Work,Archmage at the Spire in Bruron
+Sound,Basic,Full name,Archmage Sound
+Sound,Basic,Hometown,Bruron
+Sound,Basic,Work,Archmage at the Spire in Bruron
