@@ -40,7 +40,7 @@ search_item = st.text_input("Search: ")
 # Search item display
 if search_item:
     if search_item in character_list:
-        st.title(search_item + ":")
+        st.header(search_item + ":")
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
         for category in character_categories:
             st.subheader(category + ":", divider="gray")
