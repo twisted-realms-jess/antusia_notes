@@ -27,8 +27,6 @@ def load_data(url):
 # Load character data
 character_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/characters.csv')
 character_list = character_df['Search Term'].unique()
-character_categories = character_df['Category'].unique()
-#character_details = pd.Series(df.Note.values,index=df.Subcategory).to_dict()
 
 # Load session data
 session_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/sessions.csv')
@@ -42,6 +40,7 @@ if search_item:
     if search_item in character_list:
         st.header(search_item + ":")
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
+        character_categories = filtered_df['Category'].unique()
         for category in character_categories:
             st.subheader(category + ":", divider="gray")
             details = filtered_df[filtered_df['Category'] == category]
