@@ -10,10 +10,10 @@ from io import StringIO
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app!")
-st.write(
-    """Search for notes using the search bar below
-    """
-)
+# st.write(
+#     """Search for notes using the search bar below:
+#     """
+# )
 
 # Function to load data
 def load_data(url):
@@ -35,7 +35,7 @@ session_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/an
 session_list = session_df['Session'].unique()
 
 # Search item input
-search_item = st.text_input("Search: ")
+search_item = st.text_input("Search for a topic: ")
 
 # Search item display
 if search_item:
