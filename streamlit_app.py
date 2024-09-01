@@ -55,7 +55,7 @@ if search_item:
     elif search_item in place_list:
         filtered_df = place_df.loc[place_df['Place'] == search_item]
         place_categories = filtered_df['Category'].unique()
-        for category in character_categories:
+        for category in place_categories:
             st.subheader(category + ":", divider="gray")
             for note in filtered_df['Note']:
                 st.write("- " + note)
