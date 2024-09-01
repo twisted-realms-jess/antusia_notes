@@ -40,10 +40,10 @@ search_item = st.text_input("Search: ")
 # Search item display
 if search_item:
     if search_item in character_list:
-        st.subheader(search_item + ":")
+        st.title(search_item + ":")
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
         for category in character_categories:
-            st.write(category + ":")
+            st.subheader(category + ":", divider="gray")
             details = filtered_df[filtered_df['Category'] == category]
             character_details = pd.Series(details.Note.values,index=details.Subcategory).to_dict()
             for key, value in character_details.items():
