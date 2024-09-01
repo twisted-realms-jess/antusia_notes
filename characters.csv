@@ -67,7 +67,7 @@ Carmen,Basic,Pronouns,She/Her
 Carmen,Basic,Hometown,Bruron
 Carmen,Basic,Work,Professor at the university in Bruron
 Silence,Basic,Full name,Archmage Silence
-Silence,Pronouns,He/Him
+Silence,Basic,Pronouns,He/Him
 Silence,Basic,Hometown,Bruron
 Silence,Basic,Work,Archmage at the Spire in Bruron
 Sound,Basic,Full name,Archmage Sound
@@ -76,4 +76,5 @@ Sound,Basic,Work,Archmage at the Spire in Bruron
 Thauvea,Basic,Full name, Thauvea Dawnfighter
 Thauvea,Basic,Pronouns,She/Her
 Thauvea,Basic,Race,Goliath
+Thauvea,Basic,Hometown,Bruron
 Thauvea,Basic,Work,Tattoo artist, former military
