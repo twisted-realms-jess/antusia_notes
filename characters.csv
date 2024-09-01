@@ -7,8 +7,8 @@ Adrik,Basic,Hometown,Ekrund
 Adrik,Basic,God,Brokkr
 Adrik,Family,Wife,Vistra Fireforge
 Adrik,Family,Son,Rurik Fireforge
-Adrik,Fabraal,Position,Back of the left hand that attaches with a loop on the front of the hand
-Adrik,Fabraal,Description,Contains the symbol of Brokkr
+Adrik,Fabrial,Position,Back of the left hand that attaches with a loop on the front of the hand
+Adrik,Fabrial,Description,Contains the symbol of Brokkr
 Adrik,Tattoo,Position,Back of the right shoulder
 Adrik,Tattoo,Description,Metalwork and weapons surrounding an empty shield
 Adrik,Backstory,"1",Born and raised in Ekrund
@@ -67,8 +67,13 @@ Carmen,Basic,Pronouns,She/Her
 Carmen,Basic,Hometown,Bruron
 Carmen,Basic,Work,Professor at the university in Bruron
 Silence,Basic,Full name,Archmage Silence
+Silence,Pronouns,He/Him
 Silence,Basic,Hometown,Bruron
 Silence,Basic,Work,Archmage at the Spire in Bruron
 Sound,Basic,Full name,Archmage Sound
 Sound,Basic,Hometown,Bruron
 Sound,Basic,Work,Archmage at the Spire in Bruron
+Thauvea,Basic,Full name, Thauvea Dawnfighter
+Thauvea,Basic,Pronouns,She/Her
+Thauvea,Basic,Race,Goliath
+Thauvea,Basic,Work,Tattoo artist, former military
