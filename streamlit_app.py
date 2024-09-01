@@ -57,7 +57,8 @@ if search_item:
         place_categories = filtered_df['Category'].unique()
         for category in place_categories:
             st.subheader(category + ":", divider="gray")
-            for note in filtered_df['Note']:
+            details = filtered_df[filtered_df['Category'] == category]
+            for note in details['Note']:
                 st.write("- " + note)
     elif search_item in session_list:
         filtered_df = session_df.loc[session_df['Session'] == search_item]
