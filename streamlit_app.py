@@ -32,13 +32,17 @@ character_list = character_df['Search Term'].unique()
 session_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/sessions.csv')
 session_list = session_df['Session'].unique()
 
+# Load place data
+place_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/places.csv')
+places_list = place_df['Place'].unique()
+
 # Search item input
 search_item = st.text_input("Search for a topic: ")
 
 # Search item display
 if search_item:
+    st.header(search_item + ":")
     if search_item in character_list:
-        st.header(search_item + ":")
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
         character_categories = filtered_df['Category'].unique()
         for category in character_categories:
@@ -48,8 +52,14 @@ if search_item:
             for key, value in character_details.items():
                 st.write(key + " = " + value)
         #st.dataframe(filtered_df.set_index(filtered_df.columns[0]),use_container_width=True)
-    if search_item in session_list:
-        st.subheader(search_item + ":")
+    elif search_item in place_list:
+        filtered_df = place_df.loc[place_df['Place'] == search_item]
+        place_categories = filtered_df['Category'].unique()
+        for category in character_categories:
+            st.subheader(category + ":", divider="gray")
+            for note in filtered_df['Note']:
+                st.write("- " + note)
+    elif search_item in session_list:
         filtered_df = session_df.loc[session_df['Session'] == search_item]
         #st.dataframe(filtered_df.set_index(filtered_df.columns[0]))
         for note in filtered_df['Notes']:
