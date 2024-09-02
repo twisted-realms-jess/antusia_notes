@@ -10,10 +10,6 @@ from io import StringIO
 
 # Set up the app header
 st.title("Welcome to the Antusia notes app!")
-# st.write(
-#     """Search for notes using the search bar below:
-#     """
-# )
 
 # Function to load data
 def load_data(url):
@@ -51,7 +47,6 @@ if search_item:
             character_details = pd.Series(details.Note.values,index=details.Subcategory).to_dict()
             for key, value in character_details.items():
                 st.write(key + " = " + value)
-        #st.dataframe(filtered_df.set_index(filtered_df.columns[0]),use_container_width=True)
     elif search_item in place_list:
         filtered_df = place_df.loc[place_df['Place'] == search_item]
         place_categories = filtered_df['Category'].unique()
@@ -62,7 +57,6 @@ if search_item:
                 st.write("- " + note)
     elif search_item in session_list:
         filtered_df = session_df.loc[session_df['Session'] == search_item]
-        #st.dataframe(filtered_df.set_index(filtered_df.columns[0]))
         for note in filtered_df['Notes']:
             st.write("- " + note)
     
