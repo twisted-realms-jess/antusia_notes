@@ -45,6 +45,8 @@ if search_item:
     if search_item in image_list:
         image_url = image_df.loc[image_df['Search Term'] == search_item]
         st.image(image_url)
+
+if search_item:
     if search_item in character_list:
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
         character_categories = filtered_df['Category'].unique()
