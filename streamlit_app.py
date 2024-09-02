@@ -42,10 +42,10 @@ search_item = st.text_input("Search for a topic: ")
 # Search item display
 if search_item:
     st.header(search_item + ":")
-    st.write(image_list)
     if search_item in image_list:
-        image_url = image_df.loc[image_df['Search Term'] == search_item]
-        st.image(image_url['Url'])
+        filtered_image = image_df.loc[image_df['Search Term'] == search_item]
+        image_url = filtered_image['Url']
+        st.image(image_url)
         st.write('Testing')
 
 if search_item:
