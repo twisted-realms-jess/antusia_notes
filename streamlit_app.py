@@ -44,7 +44,7 @@ if search_item:
     st.header(search_item + ":")
     if search_item in image_list:
         image_url = f"./images/" + search_item.lower() + ".jpeg"
-        st.image(image_url, width=100)
+        st.image(image_url, width=300)
 
 if search_item:
     if search_item in character_list:
