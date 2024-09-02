@@ -32,12 +32,19 @@ session_list = session_df['Session'].unique()
 place_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/places.csv')
 place_list = place_df['Place'].unique()
 
+# Load image data
+image_df = load_data('https://raw.githubusercontent.com/twisted-realms-jess/antusia_notes/main/images.csv')
+image_list = image_df['Search Term']
+
 # Search item input
 search_item = st.text_input("Search for a topic: ")
 
 # Search item display
 if search_item:
     st.header(search_item + ":")
+    if search_item in image_list:
+        image_url = image_df.loc[image_df['Search Term'] == search_item]
+        st.image(image_url)
     if search_item in character_list:
         filtered_df = character_df.loc[character_df['Search Term'] == search_item]
         character_categories = filtered_df['Category'].unique()
