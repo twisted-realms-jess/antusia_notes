@@ -44,7 +44,7 @@ if search_item:
     st.header(search_item + ":")
     if search_item in image_list:
         image_url = image_df.loc[image_df['Search Term'] == search_item]
-        st.image(image_url)
+        st.image(image_url['Url'])
         st.write('Testing')
 
 if search_item:
