@@ -38,7 +38,7 @@ Enid,Basic,Race,Human
 Enid,Basic,Hometown,Bruron
 Enid,Basic,Background,In the military
 Enid,Family,Father,Brett
-Enid,Family,Mother,Tarrin
+Enid,Family,Mother,Taryn
 Emilda,Basic,Full name,Emilda Vasua
 Emilda,Basic,Pronouns,She/Her
 Emilda,Family,Sister,recently deposed Queen of Chelia
@@ -55,12 +55,12 @@ Brett,Basic,Full name,Brett
 Brett,Basic,Pronouns,He/Him
 Brett,Basic,Hometown,Bruron
 Brett,Basic,Work,Colonel in the military
-Brett,Family,Wife,Tarrin
+Brett,Family,Wife,Taryn
 Brett,Family,Daughter,Enid
-Tarrin,Basic,Full name,Tarrin
-Tarrin,Basic,Pronouns,She/Her
-Tarrin,Basic,Hometown,Bruron
-Tarrin,Family,Husband,Brett
+Taryn,Basic,Full name,Taryn
+Taryn,Basic,Pronouns,She/Her
+Taryn,Basic,Hometown,Bruron
+Taryn,Family,Husband,Brett
 Tarrin,Family,Daughter,Enid
 Carmen,Basic,Full name,Professor Carmen
 Carmen,Basic,Pronouns,She/Her
@@ -78,3 +78,9 @@ Thauvea,Basic,Pronouns,She/Her
 Thauvea,Basic,Race,Goliath
 Thauvea,Basic,Hometown,Bruron
 Thauvea,Basic,Work,"Tattoo artist, former military"
+Sharna,Basic,Full name,Captain Sharna
+Sharna,Basic,Work,Captain of The Phantom
+Silver,Basic,Full name,Silver
+Silver,Basic,Work,First Mate of The Phantom
+Jolly,Basic,Full name,Jolly
+Jjolly,Basic,Work,Cook on The Phantom
